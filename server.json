@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ThiagoJacobLannes/carris-metropolitana-mcp",
+  "title": "Carris Metropolitana",
+  "description": "Greater Lisbon buses: stops, real-time arrivals, lines, alerts and live vehicles.",
+  "repository": {
+    "url": "https://github.com/ThiagoJacobLannes/carris-metropolitana-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thiagolannes.com",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "carris-metropolitana-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

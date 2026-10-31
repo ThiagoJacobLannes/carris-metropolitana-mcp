@@ -1,5 +1,7 @@
 # carris-metropolitana-mcp
 
+<!-- mcp-name: io.github.ThiagoJacobLannes/carris-metropolitana-mcp -->
+
 MCP server for [Carris Metropolitana](https://www.carrismetropolitana.pt/), the bus network of Greater Lisbon (Lisbon Metropolitan Area), so Claude (or any MCP client) can answer "when is the next bus at X?", "where does line 4715 go?" or "is my line disrupted?" in real time.
 
 **Read-only, no key, no account.** It only reads the official open API. Not affiliated with Carris Metropolitana or TML (Transportes Metropolitanos de Lisboa).
@@ -39,6 +41,16 @@ Live positions of the buses currently running on a line: coordinates, heading, s
 All times are Europe/Lisbon. On failure a tool returns `{"error": "..."}` instead of raising.
 
 ## Install
+
+**Quickest** (needs [uv](https://docs.astral.sh/uv/)): no clone needed, it runs straight from PyPI.
+
+```bash
+claude mcp add carris-metropolitana -- uvx carris-metropolitana-mcp
+```
+
+For Claude Desktop, use `"command": "uvx", "args": ["carris-metropolitana-mcp"]`.
+
+**From source:**
 
 Requires Python 3.10+.
 

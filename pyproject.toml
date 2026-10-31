@@ -7,12 +7,16 @@ name = "carris-metropolitana-mcp"
 version = "0.1.0"
 description = "MCP server for real-time Carris Metropolitana bus info (Greater Lisbon) from the official open API."
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.10"
 dependencies = [
     "mcp>=1.2,<2",
     "httpx>=0.27.0",
     "tzdata; sys_platform == 'win32'",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ThiagoJacobLannes/carris-metropolitana-mcp"
 
 [project.scripts]
 carris-metropolitana-mcp = "carris_metropolitana_mcp.server:main"
