@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "carris-metropolitana": {
+      "command": "python",
+      "args": ["-m", "carris_metropolitana_mcp.server"]
+    }
+  }
+}
