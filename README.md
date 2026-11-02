@@ -2,6 +2,10 @@
 
 <!-- mcp-name: io.github.ThiagoJacobLannes/carris-metropolitana-mcp -->
 
+> [!WARNING]
+> **Deprecated — use [portugal-mcp](https://github.com/ThiagoJacobLannes/portugal-mcp) instead.** This server now lives on as the `transportes` feature of portugal-mcp, together with IPMA weather, INE, Banco de Portugal, Parliament, public contracts and more. Install with `uvx portugal-mcp` (add `PORTUGAL_MCP_FEATURES=transportes` to load only this part). Tool names: `find_stops`, `next_arrivals`, `line_info`, `service_alerts`, `vehicle_positions` → `bus_find_stops`, `bus_next_arrivals`, `bus_line_info`, `bus_service_alerts`, `bus_vehicle_positions`. This repository gets no further updates.
+
+
 MCP server for [Carris Metropolitana](https://www.carrismetropolitana.pt/), the bus network of Greater Lisbon (Lisbon Metropolitan Area), so Claude (or any MCP client) can answer "when is the next bus at X?", "where does line 4715 go?" or "is my line disrupted?" in real time.
 
 **Read-only, no key, no account.** It only reads the official open API. Not affiliated with Carris Metropolitana or TML (Transportes Metropolitanos de Lisboa).
