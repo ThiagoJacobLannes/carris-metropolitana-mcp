@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "carris-metropolitana-mcp"
-version = "0.1.0"
-description = "MCP server for real-time Carris Metropolitana bus info (Greater Lisbon) from the official open API."
+version = "0.1.1"
+description = "DEPRECATED: now part of portugal-mcp. MCP server for real-time Carris Metropolitana bus info (Greater Lisbon) from the official open API."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"

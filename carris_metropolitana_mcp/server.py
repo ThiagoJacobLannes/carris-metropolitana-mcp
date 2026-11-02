@@ -406,6 +406,7 @@ def vehicle_positions(line_id: str) -> dict[str, Any]:
 
 
 def main() -> None:
+    log.warning("carris-metropolitana-mcp is deprecated and gets no more updates: use portugal-mcp instead (uvx portugal-mcp; PORTUGAL_MCP_FEATURES=transportes loads only this part).")
     mcp.run()
 
 
